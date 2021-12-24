@@ -1,0 +1,18 @@
+Array vs Linned List
+Array Linned
+     Array                          List
+ - Fixed size
+Memory requirements          - unused memory
+                             extra  memory for pointer variables
+
+                           
+                            
+- used unused  memory may available -  memory may not
+                                                        be available as as multiple smadd blocks
+  one large block 
+                           
+- at beginning - O(n)				-O(1)
+ -at end O(1)                        -O(n)
+ -at middle -O(n)					-O(n)	
+ -Easy to use 						-Not easy to use
+
