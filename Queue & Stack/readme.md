@@ -1,6 +1,6 @@
 # Stack - Linked List implementation
 
-## Stack ADT (LIFO)
+## Stack ADT (LIFO) (Last In first out )
 
 A list with the restriction
 that insertion and deletion
@@ -19,4 +19,33 @@ one end, called the top.
 - at end of list (tail) //O(n)
 - at beginning (head) // O(1)
 
-# Using stack to reverse
+## Queue
+
+- Queue - First- In-First-Out (FIFO)
+
+### Queue ADT
+
+A list or Collection
+with the
+restrictiom
+that insertion can be
+performed at one
+end
+deletion
+(rear) and
+Can be performed
+at
+other end ( front).
+
+### Operation
+
+- Enqueue (x) or Push(x)
+- Dequeue() or pop() /// Constant time or O(1)
+- Front() or Peek()
+- IsEmpty()
+
+Applications
+
+1. Printer queue
+2. Process scheduding
+3. Simulating wait
