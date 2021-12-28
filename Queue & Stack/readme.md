@@ -49,3 +49,8 @@ Applications
 1. Printer queue
 2. Process scheduding
 3. Simulating wait
+
+### Implementation Queue using
+
+1. Arrays
+2. Linked List
