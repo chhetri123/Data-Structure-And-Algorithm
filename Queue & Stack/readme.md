@@ -54,3 +54,11 @@ Applications
 
 1. Arrays
 2. Linked List
+
+Array implementation
+
+### What if arrays gets filled?
+
+1.  Sorry, Queue is Full"
+2.  Create a new, array
+    and Copy data
