@@ -50,3 +50,35 @@ The logical represention of tree data structure is always Root at top and branch
 ### **Binary tree**
 
 A tree in which each node can have at most 2 Childrens
+
+- Left child
+- Right Child
+
+Node can have either of child
+
+Strict /Proper Binary tree
+
+- Each node can have either 2 or 0 children
+
+Complete Binary Tree
+
+- All levels except possibly the last are completely filled and all nodes are as left as possible
+- max no. of node at level i=2^i
+
+Perfect Binary Tree
+
+- All the level are completely filled .
+- Maximum no. of nodes in atree with height h =2^(h+1)-1 where h= no of levels
+- Height of perfect Binary Tree with n nodes =log2(n+1)-1
+- Height of complete binary tree=log2(n)
+
+Balanced Binary Tree
+
+- Difference between height of left and right subtree for ebery node is not more than k (mostly 1)
+  -diff =| h(left)-h(right)|
+
+**_Implementation_**
+we can implement binary tree using:-
+
+1.  Dynamically cretaed node .
+2.  Arrays
