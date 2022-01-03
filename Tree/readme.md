@@ -78,7 +78,21 @@ Balanced Binary Tree
   -diff =| h(left)-h(right)|
 
 **_Implementation_**
+
 we can implement binary tree using:-
 
 1.  Dynamically cretaed node .
 2.  Arrays
+
+**_Binary Search Tree_**
+
+A binary tree in which for each node ,value of all the nodes in left subtree is lesser or equal and value of all the nodes in right subtree is greater.
+
+What data Structure will you use to store a modifiable collection ?
+ans- I can use an Array or a Linked list
+
+We want to be able to perform below operations:
+
+- Search(x) // Search for an element x // O(n) for array // O(n) for Linked List
+- Insert(x) // Insert an element X // O(1) for array // O(1)
+- Remove(x) // Remove an element x // O(n) for array //O(n)
