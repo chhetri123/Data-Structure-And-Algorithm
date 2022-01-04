@@ -95,4 +95,6 @@ We want to be able to perform below operations:
 
 - Search(x) // Search for an element x // O(n) for array // O(n) for Linked List
 - Insert(x) // Insert an element X // O(1) for array // O(1)
-- Remove(x) // Remove an element x // O(n) for array //O(n)
+- Remove(x) // Remove an element x //
+O(n) for array //O(n)
+ ![Screenshot 2022-01-03 234626](https://user-images.githubusercontent.com/65161301/147964817-5299014b-f9da-4fa7-9cdc-b05a26d44f89.png)
