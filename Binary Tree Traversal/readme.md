@@ -8,6 +8,10 @@
     - Left->root->Right -**Inorder** -LDR
     - left->right->Root - **Postorder** -LRD
 
+
+
+![Screenshot 2022-01-05 233909](https://user-images.githubusercontent.com/65161301/148265767-1e0b8b96-0521-4b62-b218-6e49d8096dee.png)
+
 ## **Preorder (DLR)**
 
 ### F->D->B->A->C->E->J->G->I->H->K
