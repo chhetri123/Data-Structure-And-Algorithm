@@ -8,13 +8,15 @@
     - Left->root->Right -**Inorder** -LDR
     - left->right->Root - **Postorder** -LRD
 
-
-
 ![Screenshot 2022-01-05 233909](https://user-images.githubusercontent.com/65161301/148265767-1e0b8b96-0521-4b62-b218-6e49d8096dee.png)
 
 ## **Preorder (DLR)**
 
 ### F->D->B->A->C->E->J->G->I->H->K
+
+1. Visit root
+2. visit left subtree
+3. Visit rigt subtree
 
 ## **Inorder (LDR)**
 
@@ -30,3 +32,13 @@
 
 - Time Complexity O(n)
 - Space Completely O(1)-Best level O(n)-Worst level
+
+In best case:
+
+Its time complexity :O(n)
+space Complexity:O(h) where h=height of tree
+
+In worst case:
+
+Its time complexity :O(n)
+Its space complexity :O(log(n))
