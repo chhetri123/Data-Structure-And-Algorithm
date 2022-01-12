@@ -22,9 +22,16 @@
 
 ### A->B->C->D->E->F->G->H->I->J->k
 
+1.Visit Left -Subtree
+2.Visit root 3. Visit right subtree
+
 ## **PostOrder (LRD)**
 
 ### A->C->B->E->D->H->I->G->K->J->F
+
+1. Visit left Subtree
+2. Visit right Subtree
+3. Visit Root
 
 ## **Level-order-Traveral**
 
@@ -42,3 +49,23 @@ In worst case:
 
 Its time complexity :O(n)
 Its space complexity :O(log(n))
+
+## **_Delete node from binary Serach tree_**
+
+we have three cases for deleting the node of the tree:
+
+- case 1:No child
+- case 2: One child
+- case 3: Two children
+
+Method 1 for case 3:
+
+- Find minimum in right sub tree
+- copy the value in targetted node
+- delete duplicate from right sub tree
+
+Method 2 for case 3:
+
+- FInd maximum value in left subtree
+- copy the value in targetted node
+- delete duplicate from left subtree
