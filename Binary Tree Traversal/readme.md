@@ -22,16 +22,17 @@
 
 ### A->B->C->D->E->F->G->H->I->J->k
 
-1.Visit Left -Subtree
-2.Visit root 3. Visit right subtree
+1. Visit Left -Subtree
+2. Visit root 
+3. Visit right subtree
 
 ## **PostOrder (LRD)**
 
 ### A->C->B->E->D->H->I->G->K->J->F
 
-1. Visit left Subtree
-2. Visit right Subtree
-3. Visit Root
+ 1. Visit left Subtree
+ 2. Visit right Subtree
+ 3. Visit Root
 
 ## **Level-order-Traveral**
 
