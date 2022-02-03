@@ -66,9 +66,6 @@ void dijkstra(int graph[V][V], int src){
 }
 
 int main(){
-
-
-
 	int graph[V][V] = { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
                         { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
                         { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
