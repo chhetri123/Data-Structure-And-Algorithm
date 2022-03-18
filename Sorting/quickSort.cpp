@@ -38,17 +38,15 @@ int partition(int a[], int l, int h)
         }
         while (a[R] > pivot)
         {
+            R--;
         }
         if (L < R)
         {
+            k = a[L];
+            a[L] = a[R];
+            a[R] = k;
         }
     }
-
-    R--;
-
-    k = a[L];
-    a[L] = a[R];
-    a[R] = k;
 
     b = a[R];
     a[R] = pivot;
@@ -61,7 +59,7 @@ void display(int a[], int n)
     int i;
     for (i = 0; i < n; i++)
     {
-        cout<<("%d\t", a[i]);
+        cout << " " << a[i];
     }
 }
 void quickSort(int a[], int l, int h)
