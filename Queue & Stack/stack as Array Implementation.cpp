@@ -39,9 +39,9 @@ int main(){
             cout << "1. Push " << endl
                   << "2. POP " << endl
                    << "3. Exit" << endl;
-            cin >> choice;
-            system("cls");
-        switch(choice){
+			cin >> choice;
+			switch (choice)
+			{
             case 1:{
                 cout << "Enter the element to push." << endl;
                 cin >> value;
